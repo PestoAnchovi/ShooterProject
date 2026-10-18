@@ -13,7 +13,9 @@ export class PlayerMovementSystem extends Component {
     }
 
     public updateRotation(angleDegrees: number | null): void { 
+        if(angleDegrees != null){
             this.node.angle = angleDegrees
+        }
 
     }
     public updateMovement(moveDir: Vec2): void { 

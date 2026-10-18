@@ -40,7 +40,7 @@ export const PISTOL: WeaponConfig = {
 
 export const SPREAD_GUN: WeaponConfig = {
     name: "SpreadGun",
-    fireMode: FireMode.RAPID,
+    fireMode: FireMode.SEMI_AUTO,
     fireRate: 0.2,
     bulletSpeed: 20,
     damageAmount: 5,
@@ -54,7 +54,7 @@ export const SPREAD_GUN: WeaponConfig = {
 
 export const FORWARD_REAR_PISTOL: WeaponConfig = {
     name: "ForwardRearPistol",
-    fireMode: FireMode.RAPID,
+    fireMode: FireMode.SEMI_AUTO,
     fireRate: 0.1,
     bulletSpeed: 25,
     damageAmount: 7,
@@ -67,8 +67,8 @@ export const FORWARD_REAR_PISTOL: WeaponConfig = {
 
 export const DOUBLE_GUN: WeaponConfig = {
     name: "DoubleGun",
-    fireMode: FireMode.BURST,
-    fireRate: 0.1,
+    fireMode: FireMode.SEMI_AUTO,
+    fireRate: 1.0,
     bulletSpeed: 25,
     damageAmount: 3,
     magazineSize: 30,
